@@ -1,0 +1,41 @@
+.tab {
+    float: left;
+    
+    background-color: #f1f1f1;
+    width: 15%;
+    height: 90%;
+    }
+    
+  
+    .tab button {
+    display: block;
+    color: black;
+    padding: 10px 8px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-style: cursive;
+    }
+    
+    
+    .tab button:hover {
+    background-color: rgba(151, 214, 216, 0.623);
+    }
+    
+    
+    .tab button.active {
+    background-color: rgba(27, 132, 163, 0.973);
+    }
+    
+    
+    .tabcontent {
+    float: left;
+    padding: 0px 8px;
+    border: 1px solid;
+    width: 85%;
+    border-left: none;
+    height: auto;
+    display: none;}
